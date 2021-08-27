@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-import styles from './styles.module.css';
 
 export default function Table(props) {
   const { className, dataTable, headers, loading } = props;
@@ -8,7 +7,7 @@ export default function Table(props) {
     if (loading) {
       return (
         <tr>
-          <td className='nodata' colSpan={headers.length}>
+          <td colSpan={headers.length}>
           {loading ? <h3>Loading...</h3> : (<><h3>Data tidak di temukan</h3></>)}
           </td>
         </tr>
@@ -16,7 +15,7 @@ export default function Table(props) {
     }
 
     return dataTable.map((value, i) => {
-      const tds = value.map((v, i) => <td className={styles['with-data']} key={i}>{v}</td>);
+      const tds = value.map((v, i) => <td  key={i}>{v}</td>);
       return (
         <tr>
           {tds}
@@ -26,7 +25,7 @@ export default function Table(props) {
   };
 
   return (
-    <table className={[styles.root, className].join(' ')}>
+    <table className={className}>
       <thead>
         <tr>{headers.map((v, i) => <th key={i}>{v}</th>)}</tr>
       </thead>

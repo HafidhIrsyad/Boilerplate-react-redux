@@ -22,6 +22,7 @@
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
+  - [Waktu Lebih](#waktu-lebih)
 
 
 
@@ -75,6 +76,9 @@ yarn run test
 ```JS
 localhost:3000 in browser
 ```
+
+### Waktu Lebih
+Jika saya diberikan waktu lebih maka akan mengerjakan unit testing dengan minimal coverage 80%.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->

@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/App render 1`] = `
+<BrowserRouter>
+  <Navbar />
+  <Switch>
+    <Route
+      component={[Function]}
+      exact={true}
+      path={
+        Array [
+          "/",
+          "/home",
+        ]
+      }
+    />
+    <Route
+      component={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": Object {
+            "destroyOnUnmount": true,
+            "enableReinitialize": false,
+            "forceUnregisterOnUnmount": false,
+            "form": "addProduct",
+            "getFormState": [Function],
+            "initialValues": Object {
+              "deskripsi": "",
+              "hargaSatuan": "",
+              "nama": "",
+              "satuan": "",
+              "sellerId": "",
+            },
+            "keepDirtyOnReinitialize": false,
+            "persistentSubmitErrors": false,
+            "pure": true,
+            "shouldAsyncValidate": [Function],
+            "shouldError": [Function],
+            "shouldValidate": [Function],
+            "shouldWarn": [Function],
+            "submitAsSideEffect": false,
+            "touchOnBlur": true,
+            "touchOnChange": false,
+            "updateUnregisteredFields": false,
+            "validate": [Function],
+          },
+          "render": [Function],
+        }
+      }
+      exact={true}
+      path="/addProduct"
+    />
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/addSeller"
+    />
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/search"
+    />
+  </Switch>
+</BrowserRouter>
+`;

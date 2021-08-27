@@ -26,14 +26,13 @@ export default function Product() {
   const dataTables = data?.map((v, index) => {
     return [
       <p key={index}>{v.nama}</p>,
-      // v.nama,
       v.satuan,
       v.hargaSatuan,
       v.sellerId,
       v.deskripsi,
     ]
   });
-  console.log(isLoading, dataTables)
+
   return (
     <section className='table'>
       <div className="search">
