@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/HafidhIrsyad/Boilerplate-react-redux">
-    <img src="https://github.com/HafidhIrsyad/alami-store/blob/main/alami-logo.png" alt="Alami Logo" height="80">
+    <img src="https://github.com/HafidhIrsyad/alam-test/blob/main/alami-logo.png" alt="Alami Logo" height="80">
   </a>
 
   <h3 align="center">ALAMI TEST FRONTEND DEVELOPER</h3>
