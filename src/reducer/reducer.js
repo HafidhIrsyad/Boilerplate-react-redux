@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import example from '../store/reducer'
+import alami from '../store/reducer'
 
 const rootReducer = combineReducers({
-  example
+  alami,
 })
 
 export default rootReducer;

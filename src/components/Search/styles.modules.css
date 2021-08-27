@@ -1,0 +1,16 @@
+.root {
+  align-items: center;
+  border: 0.0625rem solid #E5E6E6;
+  border-radius: 0.5rem;
+  display: flex;
+  font-size: 0.9rem;
+  padding: 0.75rem;
+  background-color: #fff;
+}
+.root > input {
+  border: none;
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+  outline: none;
+  width: 100%;
+}

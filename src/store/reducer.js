@@ -1,21 +1,23 @@
-import { FAILED, FETCH, LOADING } from './type';
+import { FAILED, FETCH, LOADING, SEARCH_FETCH } from './type';
 
 export const initialState = {
   counter: 1,
-  data: [],
+  alami: [],
+  message: 'Berhasil',
   isLoading: false,
-  error: null,
+  pencarian: [],
+  sellers: [],
 }
 
 export default function reducer (state=initialState, action) {
-  const { data, error } = action;
+  const { data, pencarian, message } = action;
 
   switch (action.type) {
     case FAILED:
     return {
       ...state,
       isLoading: false,
-      ...error
+      message,
     }
     case LOADING:
     return {
@@ -27,7 +29,14 @@ export default function reducer (state=initialState, action) {
       ...state,
       isLoading: false,
       ...data,
+      message:''
     }
+    case SEARCH_FETCH:
+      return {
+        ...state,
+        isLoading: false,
+        pencarian,
+      };
     default:
       return state;
   }
