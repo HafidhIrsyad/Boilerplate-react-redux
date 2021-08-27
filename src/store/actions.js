@@ -1,4 +1,3 @@
-import { push } from 'react-router-redux';
 import { FAILED, FETCH, LOADING, SEARCH_FETCH } from './type';
 import { getProduct, addProduct, addSeller, searchProduct } from '../services/services';
 
